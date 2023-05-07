@@ -31,8 +31,49 @@
 //   console.log(element);
 // }
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+//<---------------------------- FOR/OF ---------------------------->
 
-for (let index of names) {
-  console.log(index);
-}
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+// for (let index of names) {
+//   console.log(index);
+// }
+
+//<---------------------------- WHILE ---------------------------->
+
+// let counter = 4;
+
+// while(counter !== 5) {
+//   counter += 1;
+// }
+// console.log(counter);
+
+// let dado1 = Math.ceil(Math.random(2) * 6);
+// console.log('resultado dado 1:', dado1);
+// let dado2 = Math.ceil(Math.random(1) * 6);
+
+// while (dado1 !== dado2) {
+//   dado2 = Math.ceil(Math.random(1) * 6);
+//   console.log('resultado dado 2:', dado2);
+// }
+
+//<---------------------------- ALGORITMOS ---------------------------->
+
+// let fruits = [3, 4, 10, 1, 12];
+
+// let sum = 0
+
+// for (let index = 0; index < fruits.length; index += 1){
+//   sum += fruits[index]
+// }
+
+// if (sum > 15) {
+//   console.log(sum);
+// } else {
+//   console.log("Valor menor que 16");
+// }
+
+let pessoas = ['Amanda', 'Bruna', 'Carla'];
+let pessoaEscolhida = pessoas[2]
+
+console.log(pessoaEscolhida);
