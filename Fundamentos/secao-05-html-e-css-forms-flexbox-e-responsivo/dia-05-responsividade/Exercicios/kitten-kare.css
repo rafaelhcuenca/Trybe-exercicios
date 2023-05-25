@@ -92,3 +92,18 @@ body {
   footer {
     visibility: hidden;
   }
+
+@media screen { small
+  aside {
+    visibility: hidden;
+  }
+  img {
+    width: 100%;
+  }
+  navigation {
+
+  }
+}
+  header {
+    position: fixed;
+  }
