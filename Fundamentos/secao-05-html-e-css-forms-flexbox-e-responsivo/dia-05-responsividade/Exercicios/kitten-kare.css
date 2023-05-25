@@ -81,7 +81,7 @@ body {
   height: 1%;
 }
 
-@media print {
+/* @media print {
   #header {
       visibility: hidden;
   }
@@ -91,17 +91,17 @@ body {
   }
   footer {
     visibility: hidden;
-  }
+  } */
 
-@media screen { small
+@media screen and (max-width: 600px) {
   aside {
     visibility: hidden;
   }
   img {
     width: 100%;
   }
-  navigation {
-
+  #navigation ul {
+    flex-direction: column;
   }
 }
   header {
