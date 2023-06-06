@@ -20,13 +20,13 @@ items.sort(comparar);
 console.log(items);
 
 // Ordene os elementos do array de forma alfabética DECRESCENTE, pelo nome
-// function comparar(b, a) {
-//   if (a.name < b.name) return -1;
-//     if (a.name > b.name) return 1;
-//   // a deve ser igual a b
-//       return 0;
-// }
+function comparar(b, a) {
+  if (a.name < b.name) return -1;
+    if (a.name > b.name) return 1;
+  // a deve ser igual a b
+      return 0;
+}
 
-// items.sort(comparar);
+items.sort(comparar);
 
-// console.log(items);
+console.log(items);

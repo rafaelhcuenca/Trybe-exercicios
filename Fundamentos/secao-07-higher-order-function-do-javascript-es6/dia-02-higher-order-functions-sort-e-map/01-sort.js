@@ -1,9 +1,10 @@
 const fruits = ['cherries', 'apples', 'orange', 'bananas'];
 
 // Ordene os elementos do array de forma alfabética CRESCENTE
-// fruits.sort();
 
-// console.log(fruits);
+fruits.sort();
+
+console.log(fruits);
 
 // Ordene os elementos do array de forma alfabética DECRESCENTE
 

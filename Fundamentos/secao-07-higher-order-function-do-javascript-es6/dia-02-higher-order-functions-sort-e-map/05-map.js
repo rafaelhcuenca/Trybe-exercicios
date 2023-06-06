@@ -9,18 +9,23 @@ const birds = [
 ];
 
 // RESOLVENDO COM FOR
-const birdsName = (array) => {
-  const myArray = [];
+// const birdsName = (array) => {
+//   const myArray = [];
 
-  for (let index = 0; index < array.length; index += 1) {
-    const UpperCaseName = array[index].name.toUpperCase();
-    myArray.push(UpperCaseName);
-  }
-  return myArray;
-}
+//   for (let index = 0; index < array.length; index += 1) {
+//     const UpperCaseName = array[index].name.toUpperCase();
+//     myArray.push(UpperCaseName);
+//   }
+//   return myArray;
+// }
 
 // RESOLVENDO COM MAP
 
+const birdsName = (birds) => {
+  return birds.map((bird) => {
+    return `${bird.name}`.toUpperCase();
+  });
+};
 
 // CHAMANDO A FUNÇÃO
 console.log(birdsName(birds));

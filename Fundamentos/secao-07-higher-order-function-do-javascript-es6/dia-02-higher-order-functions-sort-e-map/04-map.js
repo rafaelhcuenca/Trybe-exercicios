@@ -24,16 +24,16 @@ const cities = [
 // }
 
 // RESOLVENDO COM MAP
-// const citiesAndStates = (cities) => {
+const citiesAndStates = (cities) => {
 
-//   return cities.map((city) => {
-//     return `${city.name} - ${city.state}`;
-//   })
-// }
+  return cities.map((city) => {
+    return `${city.name} - ${city.state}`;
+  })
+};
 
 // Refatorando
 const citiesAndStates = (cities) => cities.map((city) => `${city.name} - ${city.state}`);
 
 // CHAMANDO A FUNÇÃO
 console.log(citiesAndStates(cities));
-// console.table(citiesAndStates(cities));
+console.table(citiesAndStates(cities));
